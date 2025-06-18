@@ -67,7 +67,7 @@ class PostController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $posts = Post::find($id)
     }
 
     /**
